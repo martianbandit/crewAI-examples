@@ -6,12 +6,13 @@ from marketing_posts.crew import MarketingPostsCrew
 def run():
     # Replace with your inputs, it will automatically interpolate any tasks and agents information
     inputs = {
-        'customer_domain': 'crewai.com',
+        'customer_domain': 'lechienvoyageur.com',
         'project_description': """
-CrewAI, a leading provider of multi-agent systems, aims to revolutionize marketing automation for its enterprise clients. This project involves developing an innovative marketing strategy to showcase CrewAI's advanced AI-driven solutions, emphasizing ease of use, scalability, and integration capabilities. The campaign will target tech-savvy decision-makers in medium to large enterprises, highlighting success stories and the transformative potential of CrewAI's platform.
+lechienvoyageur.com es une boutique de E-commerce se sp/cialisant dans les produits de transports, de voyage, et camping pour votre chien et recherche constament des produits innovateur, 
+pratiques et durable et recherche dans le Pays France les tendances en terme de produits et de promotions et strategie marketing
 
-Customer Domain: AI and Automation Solutions
-Project Overview: Creating a comprehensive marketing campaign to boost awareness and adoption of CrewAI's services among enterprise clients.
+Customer Domain: e-commerce, boutique en ligne
+Project Overview: Mettre en place une solution automatisée permettant d’identifier et de rechercher des produits tendance, innovants et durables à partir d’un ensemble de plateformes et d’outils (pytrends, serper, etc.) dans le marché français.
 """
     }
     MarketingPostsCrew().crew().kickoff(inputs=inputs)
@@ -22,12 +23,13 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        'customer_domain': 'crewai.com',
+        'customer_domain': 'lechienvoyageur.com',
         'project_description': """
-CrewAI, a leading provider of multi-agent systems, aims to revolutionize marketing automation for its enterprise clients. This project involves developing an innovative marketing strategy to showcase CrewAI's advanced AI-driven solutions, emphasizing ease of use, scalability, and integration capabilities. The campaign will target tech-savvy decision-makers in medium to large enterprises, highlighting success stories and the transformative potential of CrewAI's platform.
+lechienvoyageur.com es une boutique de E-commerce se sp/cialisant dans les produits de transports, de voyage, et camping pour votre chien et recherche constament des produits innovateur, 
+pratiques et durable et recherche dans le Pays France les tendances en terme de produits et de promotions et strategie marketing
 
-Customer Domain: AI and Automation Solutions
-Project Overview: Creating a comprehensive marketing campaign to boost awareness and adoption of CrewAI's services among enterprise clients.
+Customer Domain: e-commerce, boutique en ligne
+Project Overview: Mettre en place une solution automatisée permettant d’identifier et de rechercher des produits tendance, innovants et durables à partir d’un ensemble de plateformes et d’outils (pytrends, serper, etc.) dans le marché français.
 """
     }
     try:
